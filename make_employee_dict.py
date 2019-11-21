@@ -6,7 +6,7 @@ class Employee:
         self.email_address = email_address
 
     dic_employee = {}
-def make_employee_dict(self, name, ID_number, salary, email_address):
+def make_employee_dict(name, ID_number, salary, email_address):
     tally = 0
     for tally in range(len(self.name)):
         name[tally] = Employee(ID_number[tally], salary[tally],email_address[tally])
