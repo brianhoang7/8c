@@ -8,7 +8,7 @@ class Employee:
     dic_employee = {}
 def make_employee_dict(name, ID_number, salary, email_address):
     tally = 0
-    for tally in range(len(self.name)):
+    for tally in range(len(name)):
         name[tally] = Employee(ID_number[tally], salary[tally],email_address[tally])
         dic_employee[ID_number[tally]] = name[tally]
         tally+=1
